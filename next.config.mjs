@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // Le dice a Next.js que el sitio vive dentro de la carpeta /viva-sofma
+  basePath: "/viva-sofma",
+  
+  // Apaga la optimización de imágenes (GitHub Pages no lo soporta)
   images: {
     unoptimized: true,
   },
-  basePath: '/viva-sofma', // 👈 nombre exacto de tu repo
 };
 
 export default nextConfig;
