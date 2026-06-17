@@ -51,7 +51,7 @@ export default async function BlogPage({ params }: BlogPageProps) {
               <div className="flex items-center gap-2">
                 {/* Imagen en lugar del ícono */}
                 <img 
-                  src="/viva.png" 
+                  src="/viva-sofma/viva.png" 
                   alt="Logo Viva Aerobús" 
                   className="w-10 h-10 rounded-lg object-contain"
                 />

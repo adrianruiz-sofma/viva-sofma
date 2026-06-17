@@ -51,13 +51,13 @@ export function HeroSection() {
             <span className="text-sm text-muted-foreground">En colaboración con:</span>
             <div className="flex items-center gap-6">
               <div className="px-4 py-2 bg-white rounded-lg shadow-sm border border-border">
-                <img src="/medela.png" alt="Logo-Medela" width="150"/>
+                <img src="/viva-sofma/medela.png" alt="Logo-Medela" width="150"/>
               </div>
               <div className="px-4 py-2 bg-white rounded-lg shadow-sm border border-border">
-                <img src="/biolacta.png" alt="Logo-Biolacta" width="150"/>
+                <img src="/viva-sofma/biolacta.png" alt="Logo-Biolacta" width="150"/>
               </div>
               <div className="px-4 py-2 bg-white rounded-lg shadow-sm border border-border">
-                <img src="/frida-mom.png" alt="Logo-FridaMom" width="150"/>
+                <img src="/viva-sofma/frida-mom.png" alt="Logo-FridaMom" width="150"/>
               </div>
             </div>
           </div>

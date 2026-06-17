@@ -116,7 +116,7 @@ export const videos = [
     title: "Extracción Medela",
     description: "Introducete al mundo de la extracción con Medela.",
     duration: "2:44",
-    thumbnail: "/lactancia.jpg",
+    thumbnail: "/viva-sofma/lactancia.jpg",
     src: "/video1.mp4",
   },
   {
@@ -124,7 +124,7 @@ export const videos = [
     title: "Señales de un bebe con hambre",
     description: "Útiles tips para saber si tu bebé tiene hambre",
     duration: "00:15",
-    thumbnail: "/bebeHambre.png",
+    thumbnail: "/viva-sofma/bebeHambre.png",
     src: "/bebeHambre.mp4",
   },
   {
@@ -132,7 +132,7 @@ export const videos = [
     title: "Embudo Personal FitFlex",
     description: "Introducción a los embudos",
     duration: "00:10",
-    thumbnail: "/embudo.png",
+    thumbnail: "/viva-sofma/embudo.png",
     src: "/embudoFlex.mp4",
   },
   {
@@ -140,7 +140,7 @@ export const videos = [
     title: "Recolector de leche Medela",
     description: "Conoce el recolector de leche de Medela.",
     duration: "00:30",
-    thumbnail: "/recolector.png",
+    thumbnail: "/viva-sofma/recolector.png",
     src: "/recolectorMedela.mp4",
   },
   {
@@ -148,7 +148,7 @@ export const videos = [
     title: "Tips de extracción en el trabajo",
     description: "Conoce los consejos más relevantes para tu primera extracción en el trabajo.",
     duration: "00:05",
-    thumbnail: "/extraccionTrabajo.png",
+    thumbnail: "/viva-sofma/extraccionTrabajo.png",
     src: "/tipsExtraccion.mp4",
     
   },

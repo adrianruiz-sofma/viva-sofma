@@ -17,7 +17,7 @@ const bundles = [
     description: "Pensado para mamás que pasan gran parte del tiempo viajando. Este kit ayuda a extraer, almacenar y transportar leche de forma práctica durante jornadas largas o vuelos. \n\nIncluye:\n- Extractor Manual Harmony\n- Hielera para Leche Materna\n- Bolsas de Almacenamiento Easy Pour 50pzs\n- Bolsas Esterilizadoras Quick Clean",
     stage: "Prenatal - Primeras semanas",
     icon: Baby,
-    image: "/kit-mama-aire.png",
+    image: "/viva-sofma/kit-mama-aire.png",
     highlight: false,
   },
   {
@@ -27,7 +27,7 @@ const bundles = [
     description: "Pensado para mamás que pasan jornadas en oficina o lejos de su bebé y buscan mantener su rutina de lactancia de forma cómoda y práctica.\n\nIncluye:\n- Extractor de Leche Eléctrico Solo\n- Bustier para Extracción Manos Libres",
     stage: "Regreso al trabajo",
     icon: Sparkles,
-    image: "/kit-torre.png",
+    image: "/viva-sofma/kit-torre.png",
     highlight: true,
   },
   {
@@ -37,7 +37,7 @@ const bundles = [
     description: "Enfocado en confort, sensibilidad y comodidad durante la lactancia. Ayuda a hacer esta etapa mucho más cómoda físicamente.\n\nIncluye:\n- Parches Ultratranspirables 60 pzs\n- Lanolina Purelan para Pezones\n- Pezonera con Estuche\n- Kit para Pezones Irritados\n- Compresas de Calor Instantáneo\n- Consulta de Lactancia",
     stage: "Almacenamiento",
     icon: Droplets,
-    image: "/kit-zen.png",
+    image: "/viva-sofma/kit-zen.png",
     highlight: false,
   },
   {
@@ -47,7 +47,7 @@ const bundles = [
     description: "Pensado para la recuperación posparto y comodidad física durante los primeros días después del nacimiento del bebé.\n\nIncluye:\n-Calzones Posparto Tipo Short\n- Toallas Femeninas de Frío Instantáneo\n- Recubrimientos Perineales para Toalla Femenina\n- Espuma para el Perineo",
     stage: "Cuidado personal",
     icon: Heart,
-    image: "/kit-tierra.png",
+    image: "/viva-sofma/kit-tierra.png",
     highlight: false,
   },
   {
@@ -57,7 +57,7 @@ const bundles = [
     description: "Kit diseñado para mamás que necesitan acompañamiento, apoyo y herramientas básicas para iniciar lactancia.\n\nIncluye:\n- Consulta Lactancia primera vez\n- Consulta de seguimiento\n- Extractor Manual Harmony",
     stage: "Inicio lactancia",
     icon: Moon,
-    image: "/primer-despegue.png",
+    image: "/viva-sofma/primer-despegue.png",
     highlight: false,
   },
   {
@@ -67,7 +67,7 @@ const bundles = [
     description: "Kit que combina herramientas prácticas para la lactancia y una ayuda de confort para esta etapa, junto con acompañamiento profesional.\n\nIncluye:\n- Recolector de Leche Materna\n- Kit de Supervivencia para la Lactancia\n- Consulta de Lactancia",
     stage: "Inicio lactancia",
     icon: Moon,
-    image: "/arranca-vuelo.png",
+    image: "/viva-sofma/arranca-vuelo.png",
     highlight: false,
   },
   {
@@ -77,7 +77,7 @@ const bundles = [
     description: "Pensado para mamás que buscan hacer su experiencia de lactancia más cómoda. Este kit combina herramientas prácticas de extracción y limpieza, junto con productos para dar confort y acompañamiento profesional.\n\nIncluye:\n- Extractor Manual Harmony\n- Bolsas Esterilizadoras Quick Clean \n-Kit para Pezones Irritados\n-Consulta personalizada lactancia",
     stage: "Lactancia nocturna",
     icon: Moon,
-    image: "/kit-nocturno.png",
+    image: "/viva-sofma/kit-nocturno.png",
     highlight: false,
   },
   {
@@ -87,7 +87,7 @@ const bundles = [
     description: "Diseñado para brindar mayor comodidad durante el posparto y acompañar a la mamá en sus primeros pasos de lactancia. \n\nIncluye:\n- Calzones Posparto Tipo Short\n- Extractor Manual Harmony\n- Bolsas de Almacenamiento para Leche Materna 25pzs\n- Consulta personalizada lactancia",
     stage: "Posparto",
     icon: Moon,
-    image: "/kit-cabina.png",
+    image: "/viva-sofma/kit-cabina.png",
     highlight: false,
   },
   {
@@ -97,7 +97,7 @@ const bundles = [
     description: "Pensado para mamás que buscan una experiencia de lactancia confortable, ayudando a prevenir molestias como ductos tapados, inflamación o incomodidad durante esta etapa.\n\nIncluye:\n- Compresas de Calor Instantáneo\n- Recolector de Leche Materna\n- Masajeador 2 en 1 para Lactancia\n- Consulta personalizada lactancia",
     stage: "Posparto",
     icon: Moon,
-    image: "/kit-turbulencia.png",
+    image: "/viva-sofma/kit-turbulencia.png",
     highlight: false,
   },
 ]
