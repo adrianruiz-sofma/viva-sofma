@@ -15,4 +15,4 @@ node_modules
 .DS_Store
 node_modules/
 .next/
-*.mp4
+public/video1.mp4

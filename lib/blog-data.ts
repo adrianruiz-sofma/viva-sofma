@@ -117,7 +117,7 @@ export const videos = [
     description: "Introducete al mundo de la extracción con Medela.",
     duration: "2:44",
     thumbnail: "/viva-sofma/lactancia.jpg",
-    src: "/video1.mp4",
+    src: "/viva-sofma/video1.mp4",
   },
   {
     id: "bebe-hambre",
@@ -125,7 +125,7 @@ export const videos = [
     description: "Útiles tips para saber si tu bebé tiene hambre",
     duration: "00:15",
     thumbnail: "/viva-sofma/bebeHambre.png",
-    src: "/bebeHambre.mp4",
+    src: "/viva-sofma/bebeHambre.mp4",
   },
   {
     id: "embudo",
@@ -133,7 +133,7 @@ export const videos = [
     description: "Introducción a los embudos",
     duration: "00:10",
     thumbnail: "/viva-sofma/embudo.png",
-    src: "/embudoFlex.mp4",
+    src: "/viva-sofma/embudoFlex.mp4",
   },
   {
     id: "recolector-medela",
@@ -141,7 +141,7 @@ export const videos = [
     description: "Conoce el recolector de leche de Medela.",
     duration: "00:30",
     thumbnail: "/viva-sofma/recolector.png",
-    src: "/recolectorMedela.mp4",
+    src: "/viva-sofma/recolectorMedela.mp4",
   },
   {
     id: "tips-extraccion",
@@ -149,7 +149,7 @@ export const videos = [
     description: "Conoce los consejos más relevantes para tu primera extracción en el trabajo.",
     duration: "00:05",
     thumbnail: "/viva-sofma/extraccionTrabajo.png",
-    src: "/tipsExtraccion.mp4",
+    src: "/viva-sofma/tipsExtraccion.mp4",
     
   },
 ]
