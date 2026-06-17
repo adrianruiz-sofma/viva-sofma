@@ -34,7 +34,7 @@ export const blogPosts: BlogPost[] = [
     ],
 
     downloadable: {
-      pdfUrl: "/bancoLeche.pdf",
+      pdfUrl: "/viva-sofma/bancoLeche.pdf",
       pdfTitle: "Banco De Leche",
       pdfSize: "5.87 MB",
     },
@@ -55,7 +55,7 @@ export const blogPosts: BlogPost[] = [
       "Busca ayuda si persiste: Si después de 48 horas de mejorar el agarre el dolor continúa o hay sangrado, consulta a un profesional."
     ],
     downloadable: {
-      pdfUrl: "/cuidadoPecho.pdf",
+      pdfUrl: "/viva-sofma/cuidadoPecho.pdf",
       pdfTitle: "Guía de Cuidado de Pechos y Pezones",
       pdfSize: "4.08 MB"
     }
@@ -76,7 +76,7 @@ export const blogPosts: BlogPost[] = [
       "Recuerda que es completamente normal necesitar una talla diferente para cada pecho, y que el tamaño puede variar con el tiempo."
     ],
     downloadable: {
-      pdfUrl: "/embudo.pdf",
+      pdfUrl: "/viva-sofma/embudo.pdf",
       pdfTitle: "Guía para Seleccionar tu Talla de Embudo",
       pdfSize: "2.56 MB"
     }
@@ -101,7 +101,7 @@ export const blogPosts: BlogPost[] = [
       "Consejos prácticos: usa ropa de dos piezas, extrae con frecuencia si produces poca leche, apóyate en otras mamás, considera tener dos extractores (casa y trabajo), y limpia las piezas con bolsas Quick Clean™."
     ],
     downloadable: {
-      pdfUrl: "/regresoTrabajo.pdf",
+      pdfUrl: "/viva-sofma/regresoTrabajo.pdf",
       pdfTitle: "Guía de Lactancia y Regreso al Trabajo",
       pdfSize: "4.93 MB"
     }
