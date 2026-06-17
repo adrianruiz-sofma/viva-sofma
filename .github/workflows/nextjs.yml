@@ -35,13 +35,12 @@ jobs:
         id: detect-package-manager
         run: |
           echo "manager=npm" >> $GITHUB_OUTPUT
-          echo "command=ci" >> $GITHUB_OUTPUT
+          echo "command=install" >> $GITHUB_OUTPUT
           echo "runner=npx --no-install" >> $GITHUB_OUTPUT
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
-          cache: ${{ steps.detect-package-manager.outputs.manager }}
+          node-version: "24"
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
