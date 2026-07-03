@@ -115,7 +115,7 @@ export function OrderForm({ selectedBundle, onBundleChange }: OrderFormProps) {
               <span className="text-sm font-medium text-[#0a241a]">Solicita tu regalo</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-[#272d2d] mb-4">
-              Formulario de Solicitud
+              Regalo para mamá
             </h2>
             <p className="text-muted-foreground">
               Completa tus datos y nosotros nos encargaremos del resto. Recibe tu kit en la dirección indicada.
