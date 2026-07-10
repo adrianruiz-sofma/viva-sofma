@@ -11,7 +11,7 @@ import { CloudsBackground } from "@/components/clouds-background"
 
 const bundles = [
   {
-    id: "medela-inicio",
+    id: "mama-en-el-aire",
     title: "Mamá en el Aire ✈️",
     brand: "Medela",
     description: "Pensado para mamás que pasan gran parte del tiempo viajando. Este kit ayuda a extraer, almacenar y transportar leche de forma práctica durante jornadas largas o vuelos. \n\nIncluye:\n- Extractor Manual Harmony\n- Hielera para Leche Materna\n- Bolsas de Almacenamiento Easy Pour 50pzs\n- Bolsas Esterilizadoras Quick Clean",
@@ -31,7 +31,7 @@ const bundles = [
     highlight: true,
   },
   {
-    id: "zen",
+    id: "cabina-zen",
     title: "Cabina Zen ☁️",
     brand: "Biolacta",
     description: "Enfocado en confort, sensibilidad y comodidad durante la lactancia. Ayuda a hacer esta etapa mucho más cómoda físicamente.\n\nIncluye:\n- Parches Ultratranspirables 60 pzs\n- Lanolina Purelan para Pezones\n- Pezonera con Estuche\n- Kit para Pezones Irritados\n- Compresas de Calor Instantáneo\n- Consulta de Lactancia",
@@ -41,7 +41,7 @@ const bundles = [
     highlight: false,
   },
   {
-    id: "primeros dias",
+    id: "dias-en-tierra",
     title: "Primeros Días en Tierra 🤍",
     brand: "Frida MOM",
     description: "Pensado para la recuperación posparto y comodidad física durante los primeros días después del nacimiento del bebé.\n\nIncluye:\n-Calzones Posparto Tipo Short\n- Toallas Femeninas de Frío Instantáneo\n- Recubrimientos Perineales para Toalla Femenina\n- Espuma para el Perineo",
@@ -51,7 +51,7 @@ const bundles = [
     highlight: false,
   },
   {
-    id: "primer-despegue",
+    id: "mi-primer-despegue",
     title: "Mi Primer Despegue 👶",
     brand: "Medela",
     description: "Kit diseñado para mamás que necesitan acompañamiento, apoyo y herramientas básicas para iniciar lactancia.\n\nIncluye:\n- Consulta Lactancia primera vez\n- Consulta de seguimiento\n- Extractor Manual Harmony",
@@ -61,7 +61,7 @@ const bundles = [
     highlight: false,
   },
   {
-    id: "arranca-vuelo",
+    id: "arranca-el-vuelo",
     title: "Arranca el vuelo",
     brand: "Medela + FridaMOM",
     description: "Kit que combina herramientas prácticas para la lactancia y una ayuda de confort para esta etapa, junto con acompañamiento profesional.\n\nIncluye:\n- Recolector de Leche Materna\n- Kit de Supervivencia para la Lactancia\n- Consulta de Lactancia",
@@ -71,7 +71,7 @@ const bundles = [
     highlight: false,
   },
   {
-    id: "nocturno",
+    id: "ruta-nocturna",
     title: "Ruta Nocturna",
     brand: "Medela + Frida MOM",
     description: "Pensado para mamás que buscan hacer su experiencia de lactancia más cómoda. Este kit combina herramientas prácticas de extracción y limpieza, junto con productos para dar confort y acompañamiento profesional.\n\nIncluye:\n- Extractor Manual Harmony\n- Bolsas Esterilizadoras Quick Clean \n-Kit para Pezones Irritados\n-Consulta personalizada lactancia",
@@ -81,7 +81,7 @@ const bundles = [
     highlight: false,
   },
   {
-    id: "regreso-cabina",
+    id: "regreso-a-cabina",
     title: "Regreso a Cabina 💼",
     brand: "Medela + Frida MOM",
     description: "Diseñado para brindar mayor comodidad durante el posparto y acompañar a la mamá en sus primeros pasos de lactancia. \n\nIncluye:\n- Calzones Posparto Tipo Short\n- Extractor Manual Harmony\n- Bolsas de Almacenamiento para Leche Materna 25pzs\n- Consulta personalizada lactancia",
@@ -91,7 +91,7 @@ const bundles = [
     highlight: false,
   },
   {
-    id: "maternidad-turbulencia",
+    id: "maternidad-sin-turbulencia",
     title: "Maternidad sin Turbulencia 💫",
     brand: "Medela + Frida MOM",
     description: "Pensado para mamás que buscan una experiencia de lactancia confortable, ayudando a prevenir molestias como ductos tapados, inflamación o incomodidad durante esta etapa.\n\nIncluye:\n- Compresas de Calor Instantáneo\n- Recolector de Leche Materna\n- Masajeador 2 en 1 para Lactancia\n- Consulta personalizada lactancia",
