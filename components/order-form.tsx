@@ -16,11 +16,15 @@ import { Textarea } from "@/components/ui/textarea"
 import { CheckCircle2, Gift, Send } from "lucide-react"
 
 const bundleOptions = [
-  { id: "medela-inicio", name: "Bundle Medela Inicio" },
-  { id: "medela-avanzado", name: "Bundle Medela Avanzado" },
-  { id: "biolacta-esencial", name: "Bundle Biolacta Esencial" },
-  { id: "frida-mom-cuidado", name: "Bundle Frida MOM Cuidado" },
-  { id: "nocturno-completo", name: "Bundle Nocturno Completo" },
+  { id: "mama-en-el-aire", name: "Kit Mamá en el Aire" },
+  { id: "torre-de-control", name: "Kit Torre de Control" },
+  { id: "cabina-zen", name: "Kit Cabina Zen" },
+  { id: "dias-en-tierra", name: "Kit Primeros Dias en Tierra" },
+  { id: "mi-primer-despegue", name: "Kit Mi Primer Despegue" },
+  { id: "arranca-el-vuelo", name: "Kit Arranca el Vuelo" },
+  { id: "ruta-nocturna", name: "Kit Ruta Nocturna" },
+  { id: "regreso-a-cabina", name: "Kit Regreso a Cabina" },
+  { id: "maternidad-sin-turbulencia", name: "Kit Maternidad sin Turbulencia" },
 ]
 
 interface OrderFormProps {
