@@ -34,6 +34,7 @@ interface OrderFormProps {
 
 export function OrderForm({ selectedBundle, onBundleChange }: OrderFormProps) {
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [acceptedTerms, setAcceptedTerms] = useState(false)
   const [formData, setFormData] = useState({
     nombre: "",
     correo: "",
@@ -45,6 +46,7 @@ export function OrderForm({ selectedBundle, onBundleChange }: OrderFormProps) {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    if (!acceptedTerms) return;
     const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzGhreDbbBPOwL8SZAZ8t8ZejKvqJDPAuGOWj16mYwy2-Rn-pQlGd0t-_mSODj1cpcqjg/exec"
     try {
       const response = await fetch(GOOGLE_SCRIPT_URL, {
@@ -58,7 +60,7 @@ export function OrderForm({ selectedBundle, onBundleChange }: OrderFormProps) {
           bundle: selectedBundle // Usamos el prop que viene de afuera
         }),
       });
-
+      
       if (response.ok) {
         setIsSubmitted(true)
         // Opcional: Limpiar el formulario
@@ -153,7 +155,7 @@ export function OrderForm({ selectedBundle, onBundleChange }: OrderFormProps) {
 
                 <div className="space-y-2">
                   <Label htmlFor="nombre" className="text-[#272d2d]">
-                    Correo
+                    Correo Electrónico Institucional
                   </Label>
                   <Input
                     id="correo"
@@ -168,7 +170,7 @@ export function OrderForm({ selectedBundle, onBundleChange }: OrderFormProps) {
                 {/* Número de empleado */}
                 <div className="space-y-2">
                   <Label htmlFor="empleado" className="text-[#272d2d]">
-                    Número de empleado (Viva Aerobús)
+                    Número de empleado Viva
                   </Label>
                   <Input
                     id="empleado"
@@ -215,11 +217,11 @@ export function OrderForm({ selectedBundle, onBundleChange }: OrderFormProps) {
                 {/* Bundle Selection */}
                 <div className="space-y-2">
                   <Label htmlFor="bundle" className="text-[#272d2d]">
-                    Bundle seleccionado
+                    Kit seleccionado
                   </Label>
                   <Select value={selectedBundle} onValueChange={onBundleChange} required>
                     <SelectTrigger className="border-border focus:border-[#38ac49] focus:ring-[#38ac49]">
-                      <SelectValue placeholder="Selecciona un bundle" />
+                      <SelectValue placeholder="Selecciona un Kit" />
                     </SelectTrigger>
                     <SelectContent>
                       {bundleOptions.map((bundle) => (
@@ -230,20 +232,54 @@ export function OrderForm({ selectedBundle, onBundleChange }: OrderFormProps) {
                     </SelectContent>
                   </Select>
                 </div>
-
+                {/* Disclaimer y Términos */}
+                <div className="space-y-4 pt-4 border-t border-border">
+                  <div className="space-y-2">
+                    <Label className="text-[#272d2d] font-semibold">Términos y Condiciones</Label>
+                    <div className="h-40 overflow-y-auto p-4 bg-white border border-border rounded-md text-sm text-muted-foreground space-y-3">
+                      <p>
+                        Al seleccionar la casilla de aceptación, declaro que he leído y comprendido los presentes Términos y Condiciones aplicables al beneficio del Kit de Lactancia otorgado por Viva.
+                      </p>
+                      <p>
+                        Reconozco que este beneficio constituye un apoyo institucional otorgado exclusivamente a las personas trabajadoras que cumplan con los criterios de elegibilidad establecidos por la empresa, por lo que su otorgamiento y permanencia estarán sujetos a las condiciones previstas en la normativa interna aplicable.
+                      </p>
+                      <p>
+                        Reconozco que el beneficio es de carácter personal e intransferible y me comprometo a utilizarlo exclusivamente para los fines para los que fue otorgado, absteniéndome de venderlo, cederlo, transferirlo, comercializarlo o destinarlo a un uso distinto al autorizado.
+                      </p>
+                      <p>
+                        En caso de que Viva detecte un posible uso indebido, información falsa o cualquier incumplimiento a las condiciones aplicables al beneficio, la situación podrá ser revisada conforme a los procedimientos internos de la empresa, pudiendo adoptarse las medidas que resulten procedentes de conformidad con la normativa interna y la legislación aplicable.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start space-x-3">
+                    <input
+                      type="checkbox"
+                      id="terms"
+                      checked={acceptedTerms}
+                      onChange={(e) => setAcceptedTerms(e.target.checked)}
+                      className="mt-1 h-4 w-4 rounded border-border text-[#38ac49] focus:ring-[#38ac49] cursor-pointer"
+                    />
+                    <div className="grid gap-1.5 leading-none">
+                      <Label
+                        htmlFor="terms"
+                        className="text-sm font-medium leading-none cursor-pointer text-[#272d2d]"
+                      >
+                        Acepto los Términos y Condiciones
+                      </Label>
+                    </div>
+                  </div>
+                </div>
                 {/* Submit Button */}
                 <Button
                   type="submit"
                   size="lg"
-                  className="w-full bg-[#38ac49] hover:bg-[#2d9a3d] text-white py-6 text-lg rounded-xl"
+                  disabled={!acceptedTerms}
+                  className="w-full bg-[#38ac49] hover:bg-[#2d9a3d] text-white py-6 text-lg rounded-xl disabled:opacity-50 disabled:cursor-not-allowed transition-all"
                 >
                   <Send className="w-5 h-5 mr-2" />
                   Confirmar mi regalo
                 </Button>
-
-                <p className="text-xs text-muted-foreground text-center">
-                  Al enviar este formulario, confirmas que eres colaboradora activa de Viva Aerobús y aceptas los términos del programa de beneficios.
-                </p>
               </form>
             </CardContent>
           </Card>

@@ -14,9 +14,15 @@ export function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#8cd400]/15 rounded-full mb-8">
             <Heart className="w-4 h-4 text-[#38ac49]" />
-            <span className="text-sm font-medium text-[#0a241a]">Beneficio exclusivo para colaboradoras</span>
+            <span className="text-sm font-medium text-[#0a241a]">Beneficio exclusivo para la Gente Viva</span>
           </div>
-
+          <div className="flex justify-center mb-8">
+            <img 
+              src="/viva-sofma/alas.png" 
+              alt="Logo Alas" 
+              className="h-17 w-auto"
+            />
+          </div>
           {/* Main Title */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#272d2d] leading-tight mb-6 text-balance">
             Tu copiloto de lactancia

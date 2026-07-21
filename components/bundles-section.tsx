@@ -188,7 +188,7 @@ export function BundlesSection({ onSelectBundle }: BundlesSectionProps) {
                     onClick={() => onSelectBundle(bundle.id)}
                     className="w-full bg-[#38ac49] hover:bg-[#2d9a3d] text-white transition-colors"
                   >
-                    Seleccionar este Bundle
+                    Seleccionar este Kit
                   </Button>
                 </CardFooter>
               </Card>

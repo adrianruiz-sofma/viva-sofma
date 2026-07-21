@@ -9,16 +9,19 @@ export function Footer() {
           {/* Logo and description */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-[#38ac49] rounded-lg flex items-center justify-center">
-                <Plane className="w-6 h-6 text-white" />
+              <div className="w-15 h-15 rounded-lg flex items-center justify-center">
+                <img 
+                src="/viva-sofma/viva.png" 
+                alt="Logo Viva Aerobús" 
+                className="w-15 h-15 rounded-lg object-contain"
+              />
               </div>
               <div className="flex flex-col">
-                <span className="text-lg font-bold text-white leading-tight">Viva Aerobús</span>
-                <span className="text-xs text-[#8cd400] font-medium">Portal de Lactancia</span>
+                
               </div>
             </div>
             <p className="text-sm text-white/60 leading-relaxed">
-              Un beneficio exclusivo para nuestras colaboradoras. Acompañándote en cada etapa de tu maternidad.
+              Un beneficio exclusivo para nuestra Gente Viva. Te acompañamos en cada etapa de tu parentalidad.
             </p>
           </div>
 
@@ -71,7 +74,7 @@ export function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2 text-sm text-white/60">
               <Heart className="w-4 h-4 text-[#38ac49]" />
-              <span>Hecho con cariño para las mamás de Viva Aerobús</span>
+              <span>Hecho con cariño para la Gente Viva</span>
             </div>
             
             <div className="flex items-center gap-6">

@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Check, Copy, Ticket, Sparkles } from "lucide-react"
 
-// 1. CREAMOS UNA LISTA CON LA INFORMACIÓN ÚNICA DE CADA CUPÓN
 const couponsData = [
   {
     id: 1,
@@ -13,7 +12,7 @@ const couponsData = [
     discount: "15% OFF",
     code: "VIVAMEDELA",
     url: "https://medelamx.com/", // <-- Aquí pones el link de la primera tienda
-    bgClass: "bg-gradient-to-r from-[#a8e063] to-[#56ab2f]",
+    bgClass: "bg-[#00b500]",
   },
   {
     id: 2,
@@ -21,7 +20,7 @@ const couponsData = [
     discount: "15% OFF",
     code: "VIVAFRIDA",
     url: "https://www.fridamx.com/", // <-- Aquí el link de la segunda tienda
-    bgClass: "bg-gradient-to-r from-white to-gray-200",
+    bgClass: "bg-[#e6eee9]",
   },
   {
     id: 3,
@@ -29,7 +28,7 @@ const couponsData = [
     discount: "15% OFF",
     code: "VIVABIOLACTA",
     url: "https://biolacta.com.mx/", // <-- Aquí el link de la tercera tienda
-    bgClass: "bg-gradient-to-r from-red-400 to-red-600",
+    bgClass: "bg-[#00b500]",
   }
 ]
 
@@ -60,7 +59,7 @@ export function CouponsSection() {
             Exclusivo
           </Badge>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Tu maternidad también merece un vuelo más ligero
+            Porque cada etapa de la crianza merece despegar con apoyo.
           </h2>
           <p className="text-lg text-white/70">
             Accede a descuentos exclusivos en marcas especializadas en lactancia y cuidado materno-infantil.

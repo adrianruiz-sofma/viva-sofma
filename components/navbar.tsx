@@ -6,7 +6,7 @@ import { Menu, X, Plane } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
-  { href: "#bundles", label: "Bundles" },
+  { href: "#bundles", label: "Kits" },
   { href: "#formulario", label: "Formulario" },
   { href: "#recursos", label: "Recursos" },
   { href: "#cupones", label: "Cupones" },
@@ -44,12 +44,6 @@ export function Navbar() {
                 className="w-10 h-10 rounded-lg object-contain"
               />
               <div className="flex flex-col">
-                <span className="text-lg font-bold text-[#272d2d] leading-tight">
-                  Viva Aerobús
-                </span>
-                <span className="text-xs text-[#38ac49] font-medium">
-                  Portal de Lactancia
-                </span>
               </div>
             </div>
           </Link>
